@@ -55,7 +55,7 @@ def run_demo():
     result = healthcare_bot.invoke(
         {"messages": [{
             "role": "user",
-            "content": "Book me an appointment with Dr. Sharma on 2026-10-15."
+            "content": "Book me an appointment with Dr. Granth Chhabra on 2026-10-15. My name is Alex Carter."
         }]},
         config=thread,
     )

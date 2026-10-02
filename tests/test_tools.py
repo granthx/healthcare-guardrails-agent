@@ -15,6 +15,7 @@ def test_booking_tool_is_mocked():
     result = book_appointment.invoke({
         "patient_name": "Demo Patient",
         "date": "2026-10-15",
-        "doctor": "Sharma",
+        "doctor": "Granth Chhabra",
     })
     assert "simulated booking" in result.lower()
+    assert "granth chhabra" in result.lower()

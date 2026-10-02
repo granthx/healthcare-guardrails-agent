@@ -27,7 +27,8 @@ def book_appointment(patient_name: str, date: str, doctor: str) -> str:
 
     This is intentionally a mock side-effecting tool for demonstrating HITL.
     """
+    doc_name = doctor if doctor.strip().lower().startswith("dr.") else f"Dr. {doctor}"
     return (
-        f"Appointment booked for {patient_name} with Dr. {doctor} on {date}. "
+        f"Appointment booked for {patient_name} with {doc_name} on {date}. "
         "This is a simulated booking for the demo."
     )

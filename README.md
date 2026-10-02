@@ -159,7 +159,7 @@ Expected: deterministic safety middleware blocks the request before the LLM.
 ### 4. Appointment booking
 
 ```text
-Book me an appointment with Dr. Sharma on 2026-10-15.
+Book me an appointment with Dr. Granth Chhabra on 2026-10-15. My name is Alex Carter.
 ```
 
 Expected flow:
