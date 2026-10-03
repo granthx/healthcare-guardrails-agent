@@ -11,7 +11,7 @@ A portfolio-ready demonstration of layered AI guardrails for a healthcare assist
 - Medical output disclaimer validation
 - Tool-level separation between read-only and side-effecting actions
 - Mock mode for running without an API key
-- Streamlit demo UI
+- 
 - Automated tests
 - Optional LangSmith tracing
 
